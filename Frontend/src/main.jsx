@@ -3,6 +3,8 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 import Profile from "./components/Profile.jsx";
+import Home from "./pages/Home.jsx";
+import About from "./pages/About.jsx";
 
 import {
   createBrowserRouter,
@@ -14,10 +16,9 @@ import {
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
-
-      {/* <Route path="" element={<Home />} /> */}
-       <Route path="/profile" element={<Profile/>} />
-      {/* <Route path="contact" element={<Contact />} /> */}
+      <Route path="" element={<Home />} />
+      <Route path="/profile" element={<Profile />} />
+      <Route path="/about" element={<About />} />
       {/* <Route path="sign-in" element={<SignIn />} /> */}
       {/* <Route path="sign-up" element={<SignUp />} /> */}
       {/* <Route path="add-todo" element={<Todo />} /> */}
