@@ -2,7 +2,7 @@ import { useState } from "react"
 import { Heading } from "../components/Heading"
 import { Inputbox } from "../components/Inputbox"
 import { SubHeading } from "../components/SubHeading"
-import { Warning } from "../components/warning"
+import { Warning } from "../components/Warning"
 
 
 
