@@ -154,29 +154,25 @@
   "Contact": {
     "address": "GH Raisoni Nagpur",
     "phone": "+91 123 556 1125",
-    "email": "BroCode@Exmaple.com",
+    "email": "BroCode@Exmaple.com"
     
   },
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Explore Skills ",
+      "text": "Take a brief look at the skills available in the market and choose the one that suits you the best."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Share Your Skills ",
+      "text": "Build a community by sharing your skills and upskilling others in the process."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Build a Community",
+      "text": "Get connected with skilled peers and learn from them."
     }
+  
   ]
 }
