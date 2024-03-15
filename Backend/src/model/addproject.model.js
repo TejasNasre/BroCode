@@ -3,10 +3,6 @@ const Schema = mongoose.Schema;
 
 const ProjectSchema = new Schema(
   {
-    image: {
-      type: String, //Cloudinary image URL
-      required: true,
-    },
     title: {
       type: String,
       required: true,
