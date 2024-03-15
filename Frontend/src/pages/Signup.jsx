@@ -2,7 +2,7 @@ import { Button } from "../components/Button.jsx";
 import { Inputbox } from "../components/Inputbox.jsx";
 import { Heading } from "../components/Heading.jsx";
 import { SubHeading } from "../components/SubHeading.jsx";
-import { Warning } from "../components/warning.jsx";
+import { Warning } from "../components/Warning.jsx";
 import { useState } from "react";
 
 
