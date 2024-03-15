@@ -24,7 +24,7 @@ This project was built using these <strong>technologies.
 - MongoDB
 - Tailwind Css
 - VsCode
-- Deployment Cyclic.sh
+- Deployment Render.com
 
 ## Features
 

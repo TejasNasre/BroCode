@@ -52,7 +52,7 @@ export const Navigation = (props) => {
 
 
             <li>
-              <a href={LoginPage} >
+              <a href="/" >
                 SignIn
               </a>
             </li>
