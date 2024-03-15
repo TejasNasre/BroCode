@@ -1,4 +1,5 @@
 import React from "react";
+import LoginPage from "./LoginPage";
 
 export const Navigation = (props) => {
   return (
@@ -33,28 +34,8 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href="" className="page-scroll">
+              <a href="#about" className="page-scroll">
                 About
-              </a>
-            </li>
-            <li>
-              <a href="#services" className="page-scroll">
-                
-              </a>
-            </li>
-            <li>
-              <a href="#portfolio" className="page-scroll">
-                Gallery
-              </a>
-            </li>
-            <li>
-              <a href="#testimonials" className="page-scroll">
-                Testimonials
-              </a>
-            </li>
-            <li>
-              <a href="#team" className="page-scroll">
-                Team
               </a>
             </li>
             <li>
@@ -62,9 +43,33 @@ export const Navigation = (props) => {
                 Contact
               </a>
             </li>
+
+            <li>
+              <a href="/" className="page-scroll">
+                SignUp
+              </a>
+            </li>
+
+
+            <li>
+              <a href="" className="page-scroll">
+                SignIn
+              </a>
+            </li>
+
+
           </ul>
         </div>
       </div>
+
+      
+
+
+
     </nav>
+
+    
   );
 };
+
+
