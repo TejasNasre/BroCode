@@ -1,5 +1,6 @@
 import React from "react";
 import LoginPage from "./LoginPage";
+import SignInPage from "./SignInPage";
 
 export const Navigation = (props) => {
   return (
@@ -45,14 +46,14 @@ export const Navigation = (props) => {
             </li>
 
             <li>
-              <a href="/" className="page-scroll">
+              <a href={<SignInPage/>} className="page-scroll">
                 SignUp
               </a>
             </li>
 
 
             <li>
-              <a href="/" >
+              <a href={LoginPage} >
                 SignIn
               </a>
             </li>
